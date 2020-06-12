@@ -1,5 +1,6 @@
 import json
-
+import nltk
+nltk.download(['punkt', 'wordnet'])
 import pandas as pd
 
 from nltk.stem import WordNetLemmatizer
